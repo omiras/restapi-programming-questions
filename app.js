@@ -1,11 +1,17 @@
 
+// cargar el JSON en una variable
+const questions = require('./questions.json');
+
 // Importar el paquete de terceros que acabamos de instalar. Fijaos que como se encuentra en la carpeta node_modules NO hace falta especificar ninguna ruta (al igual que pasa con los built-in modules)
 const express = require('express');
 const logger = require('morgan');
+const cors = require('cors');
 
+const _ = require('lodash');
 
 // Es generarme un objeto para gestionar el enrutamiento y otros aspectos de la aplicación
 const app = express();
+app.use(cors());
 
 // Añadimos el middleware de morgan para loguear todas las peticiones que haga un cliente
 app.use(logger('dev'));
@@ -15,7 +21,10 @@ app.use(express.urlencoded({ extended: true }));  // Middleware para parsear dat
 
 // obtener una pregunta tipo test aleatoria
 app.get("/api/v1/question/random", (req, res) => {
-    res.send("ok");
+
+    // TODO!
+    const question = _.sample(questions);
+    res.send(question);
 });
 
 // Levantar el servidor
