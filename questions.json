@@ -1,0 +1,132 @@
+[
+  {
+      "id": "1",
+      "question": {
+          "text": "¿Cuál es el resultado de la siguiente operación en JavaScript: 10 + '5'?",
+          "code": "",
+          "imageURL": ""
+      },
+      "incorrectAnswers": ["15", "'105'", "Error"],
+      "correctAnswer": "105",
+      "referencesLink": "https://www.w3schools.com/js/js_type_conversion.asp",
+      "referencesText": "Conversiones de Tipo en JavaScript",
+      "category": "javascript"
+  },
+  {
+      "id": "2",
+      "question": {
+          "text": "¿Qué propiedad de CSS se utiliza para cambiar el color del texto?",
+          "code": "",
+          "imageURL": ""
+      },
+      "incorrectAnswers": ["background-color", "color-text", "text-style"],
+      "correctAnswer": "color",
+      "referencesLink": "https://www.w3schools.com/cssref/pr_text_color.asp",
+      "referencesText": "CSS color Property",
+      "category": "css"
+  },
+  {
+      "id": "3",
+      "question": {
+          "text": "¿Cuál es la etiqueta correcta para definir un párrafo en HTML?",
+          "code": "",
+          "imageURL": ""
+      },
+      "incorrectAnswers": ["<parrafo>", "<paragraph>", "<p></p>"],
+      "correctAnswer": "<p>",
+      "referencesLink": "https://www.w3schools.com/tags/tag_p.asp",
+      "referencesText": "HTML <p> Tag",
+      "category": "html"
+  },
+  {
+      "id": "4",
+      "question": {
+          "text": "¿Cómo se hace referencia a un archivo JavaScript externo en HTML?",
+          "code": "",
+          "imageURL": ""
+      },
+      "incorrectAnswers": ["<js src='script.js'>", "<javascript>script.js</javascript>", "<script></script>"],
+      "correctAnswer": "<script src='script.js'>",
+      "referencesLink": "https://www.w3schools.com/tags/att_script_src.asp",
+      "referencesText": "HTML <script> src Attribute",
+      "category": "html"
+  },
+  {
+      "id": "5",
+      "question": {
+          "text": "¿Cuál de las siguientes no es una forma válida de definir una variable en JavaScript?",
+          "code": "",
+          "imageURL": ""
+      },
+      "incorrectAnswers": ["variable z = 5;", "const y = 5;", "let x = 10;"],
+      "correctAnswer": "let x = 10;",
+      "referencesLink": "https://www.w3schools.com/js/js_variables.asp",
+      "referencesText": "JavaScript Variables",
+      "category": "javascript"
+  },
+  {
+      "id": "6",
+      "question": {
+          "text": "¿Qué propiedad de CSS se utiliza para añadir un borde a un elemento?",
+          "code": "",
+          "imageURL": ""
+      },
+      "incorrectAnswers": ["border-style", "border-color", "outline"],
+      "correctAnswer": "border",
+      "referencesLink": "https://www.w3schools.com/cssref/pr_border.asp",
+      "referencesText": "CSS border Property",
+      "category": "css"
+  },
+  {
+      "id": "7",
+      "question": {
+          "text": "¿Cuál es el método utilizado para mostrar un mensaje de alerta en JavaScript?",
+          "code": "",
+          "imageURL": ""
+      },
+      "incorrectAnswers": ["console.log()", "prompt()", "confirm()"],
+      "correctAnswer": "alert()",
+      "referencesLink": "https://www.w3schools.com/jsref/met_win_alert.asp",
+      "referencesText": "JavaScript alert() Method",
+      "category": "javascript"
+  },
+  {
+      "id": "8",
+      "question": {
+          "text": "¿Cómo se selecciona un elemento con el id 'example' en CSS?",
+          "code": "",
+          "imageURL": ""
+      },
+      "incorrectAnswers": ["#element.example", ".element#example", "#example"],
+      "correctAnswer": "#example",
+      "referencesLink": "https://www.w3schools.com/cssref/sel_id.asp",
+      "referencesText": "CSS ID Selector",
+      "category": "css"
+  },
+  {
+      "id": "9",
+      "question": {
+          "text": "¿Cuál es la etiqueta correcta para insertar una imagen en HTML?",
+          "code": "",
+          "imageURL": ""
+      },
+      "incorrectAnswers": ["<picture src='image.jpg'>", "<image>image.jpg</image>", "<img>"],
+      "correctAnswer": "<img src='image.jpg'>",
+      "referencesLink": "https://www.w3schools.com/tags/tag_img.asp",
+      "referencesText": "HTML <img> Tag",
+      "category": "html"
+  },
+  {
+      "id": "10",
+      "question": {
+          "text": "¿Cómo se hace referencia a un archivo de hoja de estilos externo en HTML?",
+          "code": "",
+          "imageURL": ""
+      },
+      "incorrectAnswers": ["<style src='styles.css'>", "<css href='styles.css'>", "<style></style>"],
+      "correctAnswer": "<link rel='stylesheet' href='styles.css'>",
+      "referencesLink": "https://www.w3schools.com/tags/tag_link.asp",
+      "referencesText": "HTML <link> Tag",
+      "category": "html"
+  }
+]
