@@ -91,7 +91,7 @@ Si no existe, debemos añadir un campo al objeto JSON con el valor total de vota
 
 No queremos que la misma IP vote demasiado seguido una misma pregunta. Investiga como usar Express para que limite el número de peticiones a este endpoint. Es decir que un mismo cliente solo pueda hacer una petición cada 24 horas, por ejemplo.
 
-## Iteración 6: Sugerir nuevas preguntas tipo test
+## Iteración 4: Sugerir nuevas preguntas tipo test
 
 Vamos a permtir que los usuarios envien peticiones para crear nuevas preguntas tipo test. Crea un endpoint de tipo POST para recibir dichas preguntas.
 
