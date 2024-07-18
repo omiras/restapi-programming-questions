@@ -1,446 +1,369 @@
 [
-    {
-        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-        "question": {
-            "text": "¿Cuál es el resultado de la siguiente operación en JavaScript: 10 + '5'?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "15",
-            "'105'",
-            "Error"
-        ],
-        "correctAnswer": "105",
-        "referencesLink": "https://www.w3schools.com/js/js_type_conversion.asp",
-        "referencesText": "Conversiones de Tipo en JavaScript",
-        "category": "javascript"
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "question": {
+      "text": "¿Cuál es el resultado de la siguiente operación en JavaScript: 10 + '5'?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "c9bf9e57-1685-4c89-bafb-ff5af830be8a",
-        "question": {
-            "text": "¿Qué propiedad de CSS se utiliza para cambiar el color del texto?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "background-color",
-            "color-text",
-            "text-style"
-        ],
-        "correctAnswer": "color",
-        "referencesLink": "https://www.w3schools.com/cssref/pr_text_color.asp",
-        "referencesText": "CSS color Property",
-        "category": "css"
+    "incorrectAnswers": ["15", "'105'", "Error"],
+    "correctAnswer": "105",
+    "referencesLink": "https://www.w3schools.com/js/js_type_conversion.asp",
+    "referencesText": "Conversiones de Tipo en JavaScript",
+    "category": "javascript"
+  },
+  {
+    "id": "c9bf9e57-1685-4c89-bafb-ff5af830be8a",
+    "question": {
+      "text": "¿Qué propiedad de CSS se utiliza para cambiar el color del texto?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "1c0b7b13-7dbd-4c55-a9e3-fc2076a67e3b",
-        "question": {
-            "text": "¿Cuál es la etiqueta correcta para definir un párrafo en HTML?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "<parrafo>",
-            "<paragraph>",
-            "<p></p>"
-        ],
-        "correctAnswer": "<p>",
-        "referencesLink": "https://www.w3schools.com/tags/tag_p.asp",
-        "referencesText": "HTML <p> Tag",
-        "category": "html"
+    "incorrectAnswers": ["background-color", "color-text", "text-style"],
+    "correctAnswer": "color",
+    "referencesLink": "https://www.w3schools.com/cssref/pr_text_color.asp",
+    "referencesText": "CSS color Property",
+    "category": "css"
+  },
+  {
+    "id": "1c0b7b13-7dbd-4c55-a9e3-fc2076a67e3b",
+    "question": {
+      "text": "¿Cuál es la etiqueta correcta para definir un párrafo en HTML?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "9b1deff9-1db0-4d3f-9c78-921aeea6d8e1",
-        "question": {
-            "text": "¿Cómo se hace referencia a un archivo JavaScript externo en HTML?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "<js src='script.js'>",
-            "<javascript>script.js</javascript>",
-            "<script></script>"
-        ],
-        "correctAnswer": "<script src='script.js'>",
-        "referencesLink": "https://www.w3schools.com/tags/att_script_src.asp",
-        "referencesText": "HTML <script> src Attribute",
-        "category": "html"
+    "incorrectAnswers": ["<parrafo>", "<paragraph>", "<p></p>"],
+    "correctAnswer": "<p>",
+    "referencesLink": "https://www.w3schools.com/tags/tag_p.asp",
+    "referencesText": "HTML <p> Tag",
+    "category": "html"
+  },
+  {
+    "id": "9b1deff9-1db0-4d3f-9c78-921aeea6d8e1",
+    "question": {
+      "text": "¿Cómo se hace referencia a un archivo JavaScript externo en HTML?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "d16b123e-3641-4b0d-a8e8-4b593bdd7d0b",
-        "question": {
-            "text": "¿Cuál de las siguientes no es una forma válida de definir una variable en JavaScript?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "variable z = 5;",
-            "const y = 5;",
-            "let x = 10;"
-        ],
-        "correctAnswer": "variable z = 5;",
-        "referencesLink": "https://www.w3schools.com/js/js_variables.asp",
-        "referencesText": "JavaScript Variables",
-        "category": "javascript"
+    "incorrectAnswers": [
+      "<js src='script.js'>",
+      "<javascript>script.js</javascript>",
+      "<script></script>"
+    ],
+    "correctAnswer": "<script src='script.js'>",
+    "referencesLink": "https://www.w3schools.com/tags/att_script_src.asp",
+    "referencesText": "HTML <script> src Attribute",
+    "category": "html"
+  },
+  {
+    "id": "d16b123e-3641-4b0d-a8e8-4b593bdd7d0b",
+    "question": {
+      "text": "¿Cuál de las siguientes no es una forma válida de definir una variable en JavaScript?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "2c8d8e24-c735-41f7-b20b-84b8f2a50458",
-        "question": {
-            "text": "¿Qué propiedad de CSS se utiliza para añadir un borde a un elemento?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "border-style",
-            "border-color",
-            "outline"
-        ],
-        "correctAnswer": "border",
-        "referencesLink": "https://www.w3schools.com/cssref/pr_border.asp",
-        "referencesText": "CSS border Property",
-        "category": "css"
+    "incorrectAnswers": ["variable z = 5;", "const y = 5;", "let x = 10;"],
+    "correctAnswer": "variable z = 5;",
+    "referencesLink": "https://www.w3schools.com/js/js_variables.asp",
+    "referencesText": "JavaScript Variables",
+    "category": "javascript"
+  },
+  {
+    "id": "2c8d8e24-c735-41f7-b20b-84b8f2a50458",
+    "question": {
+      "text": "¿Qué propiedad de CSS se utiliza para añadir un borde a un elemento?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "b9b2fba3-2c4f-4b41-9c4f-511e4f3fa35f",
-        "question": {
-            "text": "¿Cuál es el método utilizado para mostrar un mensaje de alerta en JavaScript?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "console.log()",
-            "prompt()",
-            "confirm()"
-        ],
-        "correctAnswer": "alert()",
-        "referencesLink": "https://www.w3schools.com/jsref/met_win_alert.asp",
-        "referencesText": "JavaScript alert() Method",
-        "category": "javascript"
+    "incorrectAnswers": ["border-style", "border-color", "outline"],
+    "correctAnswer": "border",
+    "referencesLink": "https://www.w3schools.com/cssref/pr_border.asp",
+    "referencesText": "CSS border Property",
+    "category": "css"
+  },
+  {
+    "id": "b9b2fba3-2c4f-4b41-9c4f-511e4f3fa35f",
+    "question": {
+      "text": "¿Cuál es el método utilizado para mostrar un mensaje de alerta en JavaScript?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "ec716c89-bb47-46c5-a4ab-4de83695b5b1",
-        "question": {
-            "text": "¿Cómo se selecciona un elemento con el id 'example' en CSS?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "#element.example",
-            ".element#example",
-            ".example"
-        ],
-        "correctAnswer": "#example",
-        "referencesLink": "https://www.w3schools.com/cssref/sel_id.asp",
-        "referencesText": "CSS ID Selector",
-        "category": "css"
+    "incorrectAnswers": ["console.log()", "prompt()", "confirm()"],
+    "correctAnswer": "alert()",
+    "referencesLink": "https://www.w3schools.com/jsref/met_win_alert.asp",
+    "referencesText": "JavaScript alert() Method",
+    "category": "javascript"
+  },
+  {
+    "id": "ec716c89-bb47-46c5-a4ab-4de83695b5b1",
+    "question": {
+      "text": "¿Cómo se selecciona un elemento con el id 'example' en CSS?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "6b22d99d-e676-4825-b807-d2f4d711c1bc",
-        "question": {
-            "text": "¿Cuál es la etiqueta correcta para insertar una imagen en HTML?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "<picture src='image.jpg'>",
-            "<image>image.jpg</image>",
-            "<img>"
-        ],
-        "correctAnswer": "<img src='image.jpg'>",
-        "referencesLink": "https://www.w3schools.com/tags/tag_img.asp",
-        "referencesText": "HTML <img> Tag",
-        "category": "html"
+    "incorrectAnswers": ["#element.example", ".element#example", ".example"],
+    "correctAnswer": "#example",
+    "referencesLink": "https://www.w3schools.com/cssref/sel_id.asp",
+    "referencesText": "CSS ID Selector",
+    "category": "css"
+  },
+  {
+    "id": "6b22d99d-e676-4825-b807-d2f4d711c1bc",
+    "question": {
+      "text": "¿Cuál es la etiqueta correcta para insertar una imagen en HTML?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "5080027e-fb4a-4c50-a5d2-e1e5a4de7d6d",
-        "question": {
-            "text": "¿Cómo se hace referencia a un archivo de hoja de estilos externo en HTML?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "<style src='styles.css'>",
-            "<css href='styles.css'>",
-            "<style></style>"
-        ],
-        "correctAnswer": "<link rel='stylesheet' href='styles.css'>",
-        "referencesLink": "https://www.w3schools.com/tags/tag_link.asp",
-        "referencesText": "HTML <link> Tag",
-        "category": "html"
+    "incorrectAnswers": [
+      "<picture src='image.jpg'>",
+      "<image>image.jpg</image>",
+      "<img>"
+    ],
+    "correctAnswer": "<img src='image.jpg'>",
+    "referencesLink": "https://www.w3schools.com/tags/tag_img.asp",
+    "referencesText": "HTML <img> Tag",
+    "category": "html"
+  },
+  {
+    "id": "5080027e-fb4a-4c50-a5d2-e1e5a4de7d6d",
+    "question": {
+      "text": "¿Cómo se hace referencia a un archivo de hoja de estilos externo en HTML?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "b9f2fa8d-8f45-47e2-932f-5f6a0c34f4cd",
-        "question": {
-            "text": "¿Cómo se inicializa un repositorio de Git?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "git start",
-            "git begin",
-            "git create"
-        ],
-        "correctAnswer": "git init",
-        "referencesLink": "https://git-scm.com/docs/git-init",
-        "referencesText": "Git init Documentation",
-        "category": "git"
+    "incorrectAnswers": [
+      "<style src='styles.css'>",
+      "<css href='styles.css'>",
+      "<style></style>"
+    ],
+    "correctAnswer": "<link rel='stylesheet' href='styles.css'>",
+    "referencesLink": "https://www.w3schools.com/tags/tag_link.asp",
+    "referencesText": "HTML <link> Tag",
+    "category": "html"
+  },
+  {
+    "id": "b9f2fa8d-8f45-47e2-932f-5f6a0c34f4cd",
+    "question": {
+      "text": "¿Cómo se inicializa un repositorio de Git?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "c9f9e8e2-1f7f-4c89-8b20-ec7d6a4b36b3",
-        "question": {
-            "text": "¿Cuál es el comando para añadir todos los cambios al área de preparación en Git?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "git add *",
-            "git add .all",
-            "git add files"
-        ],
-        "correctAnswer": "git add .",
-        "referencesLink": "https://git-scm.com/docs/git-add",
-        "referencesText": "Git add Documentation",
-        "category": "git"
+    "incorrectAnswers": ["git start", "git begin", "git create"],
+    "correctAnswer": "git init",
+    "referencesLink": "https://git-scm.com/docs/git-init",
+    "referencesText": "Git init Documentation",
+    "category": "git"
+  },
+  {
+    "id": "c9f9e8e2-1f7f-4c89-8b20-ec7d6a4b36b3",
+    "question": {
+      "text": "¿Cuál es el comando para añadir todos los cambios al área de preparación en Git?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "7f8fa2f2-2e9d-42b7-9025-fd9b8d918f82",
-        "question": {
-            "text": "¿Qué comando se utiliza para hacer commit de los cambios en Git?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "git commit-all",
-            "git save",
-            "git snapshot"
-        ],
-        "correctAnswer": "git commit",
-        "referencesLink": "https://git-scm.com/docs/git-commit",
-        "referencesText": "Git commit Documentation",
-        "category": "git"
+    "incorrectAnswers": ["git add *", "git add .all", "git add files"],
+    "correctAnswer": "git add .",
+    "referencesLink": "https://git-scm.com/docs/git-add",
+    "referencesText": "Git add Documentation",
+    "category": "git"
+  },
+  {
+    "id": "7f8fa2f2-2e9d-42b7-9025-fd9b8d918f82",
+    "question": {
+      "text": "¿Qué comando se utiliza para hacer commit de los cambios en Git?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "fa7b8e8e-3d1f-46b7-9a9f-c8f1d1a3b5b4",
-        "question": {
-            "text": "¿Qué comando se utiliza para clonar un repositorio de Git?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "git copy",
-            "git replicate",
-            "git fork"
-        ],
-        "correctAnswer": "git clone",
-        "referencesLink": "https://git-scm.com/docs/git-clone",
-        "referencesText": "Git clone Documentation",
-        "category": "git"
+    "incorrectAnswers": ["git commit-all", "git save", "git snapshot"],
+    "correctAnswer": "git commit",
+    "referencesLink": "https://git-scm.com/docs/git-commit",
+    "referencesText": "Git commit Documentation",
+    "category": "git"
+  },
+  {
+    "id": "fa7b8e8e-3d1f-46b7-9a9f-c8f1d1a3b5b4",
+    "question": {
+      "text": "¿Qué comando se utiliza para clonar un repositorio de Git?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "e8a6b2f2-4b7d-42c7-8d9e-9f5c6d4e2f3d",
-        "question": {
-            "text": "¿Cuál de los siguientes no es un tipo de dato válido en JSON?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "string",
-            "number",
-            "date"
-        ],
-        "correctAnswer": "date",
-        "referencesLink": "https://www.json.org/json-en.html",
-        "referencesText": "JSON Data Types",
-        "category": "json"
+    "incorrectAnswers": ["git copy", "git replicate", "git fork"],
+    "correctAnswer": "git clone",
+    "referencesLink": "https://git-scm.com/docs/git-clone",
+    "referencesText": "Git clone Documentation",
+    "category": "git"
+  },
+  {
+    "id": "e8a6b2f2-4b7d-42c7-8d9e-9f5c6d4e2f3d",
+    "question": {
+      "text": "¿Cuál de los siguientes no es un tipo de dato válido en JSON?",
+      "code": "",
+      "imageURL": ""
     },
-    {
-        "id": "3b8e9e7e-2d7d-4a8b-8c8f-5f9e5a6b6b7a",
-        "question": {
-            "text": "¿Cuál es la estructura básica de un objeto JSON?",
-            "code": "",
-            "imageURL": ""
-        },
-        "incorrectAnswers": [
-            "clave: valor",
-            "{clave: valor}",
-            "{'clave': 'valor'}"
-        ],
-        "correctAnswer": "{\"clave\": \"valor\"}",
-        "referencesLink": "https://www.json.org/json-en.html",
-        "referencesText": "JSON Structure",
-        "category": "json"
+    "incorrectAnswers": ["string", "number", "date"],
+    "correctAnswer": "date",
+    "referencesLink": "https://www.json.org/json-en.html",
+    "referencesText": "JSON Data Types",
+    "category": "json"
+  },
+  {
+    "id": "3b8e9e7e-2d7d-4a8b-8c8f-5f9e5a6b6b7a",
+    "question": {
+      "text": "¿Cuál es la estructura básica de un objeto JSON?",
+      "code": "",
+      "imageURL": ""
     },
-    [
-        {
-            "id": "f938b2e3-1a5b-4a5c-bc39-9b3b35b6c814",
-            "question": {
-                "text": "¿Qué método de Array se utiliza para crear un nuevo array con todos los elementos que pasen una prueba (proporcionada como una función)?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "map()",
-                "forEach()",
-                "reduce()"
-            ],
-            "correctAnswer": "filter()",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
-            "referencesText": "Array.prototype.filter()",
-            "category": "javascript"
-        },
-        {
-            "id": "bda27e3b-7a9d-4a2c-a7d3-92f5a5e4e6a4",
-            "question": {
-                "text": "¿Cuál es el propósito del método 'bind()' en JavaScript?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "Crear una nueva función que, cuando se llame, tenga un this value específico",
-                "Unir dos objetos en uno solo",
-                "Llamar a una función inmediatamente"
-            ],
-            "correctAnswer": "Crear una nueva función que, cuando se llame, tenga un this value específico",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind",
-            "referencesText": "Function.prototype.bind()",
-            "category": "javascript"
-        },
-        {
-            "id": "13b3c27b-4a5f-4c7a-b5d6-5d6e5e5a5a5b",
-            "question": {
-                "text": "En CSS, ¿cuál es la diferencia entre 'margin' y 'padding'?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "Margin se usa para el relleno interno, padding para el relleno externo",
-                "Margin añade espacio dentro del borde de un elemento, padding añade espacio fuera del borde",
-                "Margin añade espacio fuera del borde, padding añade espacio dentro del borde"
-            ],
-            "correctAnswer": "Margin añade espacio fuera del borde, padding añade espacio dentro del borde",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin",
-            "referencesText": "CSS margin Property",
-            "category": "css"
-        },
-        {
-            "id": "4e7f6a6b-9b5c-4d2a-8a9b-8d5b6a7d8e9a",
-            "question": {
-                "text": "¿Qué propiedad de CSS se utiliza para cambiar la opacidad de un elemento?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "visibility",
-                "display",
-                "filter"
-            ],
-            "correctAnswer": "opacity",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/opacity",
-            "referencesText": "CSS opacity Property",
-            "category": "css"
-        },
-        {
-            "id": "6d7b8e9a-4f5b-4c5d-8d6a-9e6d8e7b5c6d",
-            "question": {
-                "text": "¿Cómo se selecciona todos los elementos de una página que tengan una clase específica en CSS?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "#classname",
-                "classname",
-                "*classname"
-            ],
-            "correctAnswer": ".classname",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors",
-            "referencesText": "CSS Class Selectors",
-            "category": "css"
-        },
-        {
-            "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
-            "question": {
-                "text": "¿Qué etiqueta HTML se utiliza para definir una celda en una tabla?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "<table>",
-                "<tr>",
-                "<cell>"
-            ],
-            "correctAnswer": "<td>",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td",
-            "referencesText": "HTML <td> Element",
-            "category": "html"
-        },
-        {
-            "id": "7g8h9i0j-1k2l-3m4n-5o6p-1a2b3c4d5e6f",
-            "question": {
-                "text": "¿Qué atributo HTML se utiliza para especificar el archivo de origen de un video?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "href",
-                "link",
-                "source"
-            ],
-            "correctAnswer": "src",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
-            "referencesText": "HTML <video> Element",
-            "category": "html"
-        },
-        {
-            "id": "2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t",
-            "question": {
-                "text": "En Git, ¿qué comando se utiliza para fusionar una rama con la rama actual?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "git combine",
-                "git join",
-                "git link"
-            ],
-            "correctAnswer": "git merge",
-            "referencesLink": "https://git-scm.com/docs/git-merge",
-            "referencesText": "Git merge Documentation",
-            "category": "git"
-        },
-        {
-            "id": "3f4g5h6i-7j8k-9l0m-1n2o-3p4q5r6s7t8u",
-            "question": {
-                "text": "¿Qué comando en Git se utiliza para ver el historial de commits?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "git history",
-                "git log --history",
-                "git show commits"
-            ],
-            "correctAnswer": "git log",
-            "referencesLink": "https://git-scm.com/docs/git-log",
-            "referencesText": "Git log Documentation",
-            "category": "git"
-        },
-        {
-            "id": "4h5i6j7k-8l9m-0n1o-2p3q-4r5s6t7u8v9w",
-            "question": {
-                "text": "¿Qué estructura de datos se utiliza comúnmente para representar datos JSON?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "Array",
-                "Set",
-                "Queue"
-            ],
-            "correctAnswer": "Object",
-            "referencesLink": "https://www.json.org/json-en.html",
-            "referencesText": "JSON Data Types",
-            "category": "json"
-        }
-    ]
+    "incorrectAnswers": [
+      "clave: valor",
+      "{clave: valor}",
+      "{'clave': 'valor'}"
+    ],
+    "correctAnswer": "{\"clave\": \"valor\"}",
+    "referencesLink": "https://www.json.org/json-en.html",
+    "referencesText": "JSON Structure",
+    "category": "json"
+  },
+
+  {
+    "id": "f938b2e3-1a5b-4a5c-bc39-9b3b35b6c814",
+    "question": {
+      "text": "¿Qué método de Array se utiliza para crear un nuevo array con todos los elementos que pasen una prueba (proporcionada como una función)?",
+      "code": "",
+      "imageURL": ""
+    },
+    "incorrectAnswers": ["map()", "forEach()", "reduce()"],
+    "correctAnswer": "filter()",
+    "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+    "referencesText": "Array.prototype.filter()",
+    "category": "javascript"
+  },
+  {
+    "id": "bda27e3b-7a9d-4a2c-a7d3-92f5a5e4e6a4",
+    "question": {
+      "text": "¿Cuál es el propósito del método 'bind()' en JavaScript?",
+      "code": "",
+      "imageURL": ""
+    },
+    "incorrectAnswers": [
+      "Crear una nueva función que, cuando se llame, tenga un this value específico",
+      "Unir dos objetos en uno solo",
+      "Llamar a una función inmediatamente"
+    ],
+    "correctAnswer": "Crear una nueva función que, cuando se llame, tenga un this value específico",
+    "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind",
+    "referencesText": "Function.prototype.bind()",
+    "category": "javascript"
+  },
+  {
+    "id": "13b3c27b-4a5f-4c7a-b5d6-5d6e5e5a5a5b",
+    "question": {
+      "text": "En CSS, ¿cuál es la diferencia entre 'margin' y 'padding'?",
+      "code": "",
+      "imageURL": ""
+    },
+    "incorrectAnswers": [
+      "Margin se usa para el relleno interno, padding para el relleno externo",
+      "Margin añade espacio dentro del borde de un elemento, padding añade espacio fuera del borde",
+      "Margin añade espacio fuera del borde, padding añade espacio dentro del borde"
+    ],
+    "correctAnswer": "Margin añade espacio fuera del borde, padding añade espacio dentro del borde",
+    "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin",
+    "referencesText": "CSS margin Property",
+    "category": "css"
+  },
+  {
+    "id": "4e7f6a6b-9b5c-4d2a-8a9b-8d5b6a7d8e9a",
+    "question": {
+      "text": "¿Qué propiedad de CSS se utiliza para cambiar la opacidad de un elemento?",
+      "code": "",
+      "imageURL": ""
+    },
+    "incorrectAnswers": ["visibility", "display", "filter"],
+    "correctAnswer": "opacity",
+    "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/opacity",
+    "referencesText": "CSS opacity Property",
+    "category": "css"
+  },
+  {
+    "id": "6d7b8e9a-4f5b-4c5d-8d6a-9e6d8e7b5c6d",
+    "question": {
+      "text": "¿Cómo se selecciona todos los elementos de una página que tengan una clase específica en CSS?",
+      "code": "",
+      "imageURL": ""
+    },
+    "incorrectAnswers": ["#classname", "classname", "*classname"],
+    "correctAnswer": ".classname",
+    "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors",
+    "referencesText": "CSS Class Selectors",
+    "category": "css"
+  },
+  {
+    "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+    "question": {
+      "text": "¿Qué etiqueta HTML se utiliza para definir una celda en una tabla?",
+      "code": "",
+      "imageURL": ""
+    },
+    "incorrectAnswers": ["<table>", "<tr>", "<cell>"],
+    "correctAnswer": "<td>",
+    "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td",
+    "referencesText": "HTML <td> Element",
+    "category": "html"
+  },
+  {
+    "id": "7g8h9i0j-1k2l-3m4n-5o6p-1a2b3c4d5e6f",
+    "question": {
+      "text": "¿Qué atributo HTML se utiliza para especificar el archivo de origen de un video?",
+      "code": "",
+      "imageURL": ""
+    },
+    "incorrectAnswers": ["href", "link", "source"],
+    "correctAnswer": "src",
+    "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
+    "referencesText": "HTML <video> Element",
+    "category": "html"
+  },
+  {
+    "id": "2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t",
+    "question": {
+      "text": "En Git, ¿qué comando se utiliza para fusionar una rama con la rama actual?",
+      "code": "",
+      "imageURL": ""
+    },
+    "incorrectAnswers": ["git combine", "git join", "git link"],
+    "correctAnswer": "git merge",
+    "referencesLink": "https://git-scm.com/docs/git-merge",
+    "referencesText": "Git merge Documentation",
+    "category": "git"
+  },
+  {
+    "id": "3f4g5h6i-7j8k-9l0m-1n2o-3p4q5r6s7t8u",
+    "question": {
+      "text": "¿Qué comando en Git se utiliza para ver el historial de commits?",
+      "code": "",
+      "imageURL": ""
+    },
+    "incorrectAnswers": [
+      "git history",
+      "git log --history",
+      "git show commits"
+    ],
+    "correctAnswer": "git log",
+    "referencesLink": "https://git-scm.com/docs/git-log",
+    "referencesText": "Git log Documentation",
+    "category": "git"
+  },
+  {
+    "id": "4h5i6j7k-8l9m-0n1o-2p3q-4r5s6t7u8v9w",
+    "question": {
+      "text": "¿Qué estructura de datos se utiliza comúnmente para representar datos JSON?",
+      "code": "",
+      "imageURL": ""
+    },
+    "incorrectAnswers": ["Array", "Set", "Queue"],
+    "correctAnswer": "Object",
+    "referencesLink": "https://www.json.org/json-en.html",
+    "referencesText": "JSON Data Types",
+    "category": "json"
+  }
 ]

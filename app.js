@@ -28,9 +28,20 @@ app.get('/', (req, res) => {
 app.get("/api/v1/question/random", (req, res) => {
 
     // TODO!
-    const question = _.sample(questions);
+    const question = _.sample(questions); //De Lodash
     res.send(question);
 });
+
+// obtener todas las categorías posibles ordenadas alfabeticamente
+app.get("/api/v1/categories", (req, res) => {
+    const categoryArr = questions.map(q => q.category);
+
+   const uniqueValuesArr = _.uniq(categoryArr);
+
+   const orderedArr = uniqueValuesArr.sort()
+    
+    res.send(orderedArr);
+})
 
 // Levantar el servidor
 app.listen(process.env.PORT || 3000, () => {
