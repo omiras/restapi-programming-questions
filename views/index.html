@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation - Random Question</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.5.0/css/pico.min.css">
+    <style>
+        code {
+            background-color: #f5f5f5;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <h1>API Documentation - Random Question</h1>
+            <p>This API provides a random question from a predefined set of questions.
+            </p>
+        </header>
+        <section>
+            <h2>Endpoints</h2>
+            <h3>GET /api/v1/question/random</h3>
+            <p>Returns a random question in JSON format.</p>
+        </section>
+
+        <section>
+            <h2>Example Response</h2>
+            <pre><code>{
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "question": {
+        "text": "¿Cuál es el resultado de la siguiente operación en JavaScript: 10 + '5'?",
+        "code": "",
+        "imageURL": ""
+    },
+    "incorrectAnswers": [
+        "15",
+        "'105'",
+        "Error"
+    ],
+    "correctAnswer": "105",
+    "referencesLink": "https://www.w3schools.com/js/js_type_conversion.asp",
+    "referencesText": "Conversiones de Tipo en JavaScript",
+    "category": "javascript"
+}</code></pre>
+        </section>
+        <section>
+            <h2>Usage</h2>
+            <p>To use this API, send a GET request to <code>/api/v1/question/random</code>. Here is an example using
+                <code>curl</code>:
+            </p>
+            <pre><code>curl -X GET "http://api-programming-questions.onrender.com/api/v1/question/random"</code></pre>
+            <p>Here is an example using JavaScript <code>fetch</code>:</p>
+            <pre><code>fetch('http://api-programming-questions/api/v1/question/random')
+    .then(response => response.json())
+    .then(data => console.log(data));</code></pre>
+        </section>
+        <footer>
+            <p>&copy; 2024 IronTravellers.</p>
+        </footer>
+    </main>
+</body>
+
+</html>

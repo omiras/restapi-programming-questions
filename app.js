@@ -19,6 +19,11 @@ app.use(logger('dev'));
 // nos gustaría que también gestionaras los datos de tipo JSON (entre ellos los POST que nos lleguen)
 app.use(express.urlencoded({ extended: true }));  // Middleware para parsear datos de formularios
 
+// obtener el index.html
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/views/index.html');
+});
+
 // obtener una pregunta tipo test aleatoria
 app.get("/api/v1/question/random", (req, res) => {
 
