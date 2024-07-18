@@ -271,176 +271,174 @@
         "referencesText": "JSON Structure",
         "category": "json"
     },
-    [
-        {
-            "id": "f938b2e3-1a5b-4a5c-bc39-9b3b35b6c814",
-            "question": {
-                "text": "¿Qué método de Array se utiliza para crear un nuevo array con todos los elementos que pasen una prueba (proporcionada como una función)?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "map()",
-                "forEach()",
-                "reduce()"
-            ],
-            "correctAnswer": "filter()",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
-            "referencesText": "Array.prototype.filter()",
-            "category": "javascript"
+    {
+        "id": "f938b2e3-1a5b-4a5c-bc39-9b3b35b6c814",
+        "question": {
+            "text": "¿Qué método de Array se utiliza para crear un nuevo array con todos los elementos que pasen una prueba (proporcionada como una función)?",
+            "code": "",
+            "imageURL": ""
         },
-        {
-            "id": "bda27e3b-7a9d-4a2c-a7d3-92f5a5e4e6a4",
-            "question": {
-                "text": "¿Cuál es el propósito del método 'bind()' en JavaScript?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "Crear una nueva función que, cuando se llame, tenga un this value específico",
-                "Unir dos objetos en uno solo",
-                "Llamar a una función inmediatamente"
-            ],
-            "correctAnswer": "Crear una nueva función que, cuando se llame, tenga un this value específico",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind",
-            "referencesText": "Function.prototype.bind()",
-            "category": "javascript"
+        "incorrectAnswers": [
+            "map()",
+            "forEach()",
+            "reduce()"
+        ],
+        "correctAnswer": "filter()",
+        "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+        "referencesText": "Array.prototype.filter()",
+        "category": "javascript"
+    },
+    {
+        "id": "bda27e3b-7a9d-4a2c-a7d3-92f5a5e4e6a4",
+        "question": {
+            "text": "¿Cuál es el propósito del método 'bind()' en JavaScript?",
+            "code": "",
+            "imageURL": ""
         },
-        {
-            "id": "13b3c27b-4a5f-4c7a-b5d6-5d6e5e5a5a5b",
-            "question": {
-                "text": "En CSS, ¿cuál es la diferencia entre 'margin' y 'padding'?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "Margin se usa para el relleno interno, padding para el relleno externo",
-                "Margin añade espacio dentro del borde de un elemento, padding añade espacio fuera del borde",
-                "Margin añade espacio fuera del borde, padding añade espacio dentro del borde"
-            ],
-            "correctAnswer": "Margin añade espacio fuera del borde, padding añade espacio dentro del borde",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin",
-            "referencesText": "CSS margin Property",
-            "category": "css"
+        "incorrectAnswers": [
+            "Crear una nueva función que, cuando se llame, tenga un this value específico",
+            "Unir dos objetos en uno solo",
+            "Llamar a una función inmediatamente"
+        ],
+        "correctAnswer": "Crear una nueva función que, cuando se llame, tenga un this value específico",
+        "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind",
+        "referencesText": "Function.prototype.bind()",
+        "category": "javascript"
+    },
+    {
+        "id": "13b3c27b-4a5f-4c7a-b5d6-5d6e5e5a5a5b",
+        "question": {
+            "text": "En CSS, ¿cuál es la diferencia entre 'margin' y 'padding'?",
+            "code": "",
+            "imageURL": ""
         },
-        {
-            "id": "4e7f6a6b-9b5c-4d2a-8a9b-8d5b6a7d8e9a",
-            "question": {
-                "text": "¿Qué propiedad de CSS se utiliza para cambiar la opacidad de un elemento?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "visibility",
-                "display",
-                "filter"
-            ],
-            "correctAnswer": "opacity",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/opacity",
-            "referencesText": "CSS opacity Property",
-            "category": "css"
+        "incorrectAnswers": [
+            "Margin se usa para el relleno interno, padding para el relleno externo",
+            "Margin añade espacio dentro del borde de un elemento, padding añade espacio fuera del borde",
+            "Margin añade espacio fuera del borde, padding añade espacio dentro del borde"
+        ],
+        "correctAnswer": "Margin añade espacio fuera del borde, padding añade espacio dentro del borde",
+        "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin",
+        "referencesText": "CSS margin Property",
+        "category": "css"
+    },
+    {
+        "id": "4e7f6a6b-9b5c-4d2a-8a9b-8d5b6a7d8e9a",
+        "question": {
+            "text": "¿Qué propiedad de CSS se utiliza para cambiar la opacidad de un elemento?",
+            "code": "",
+            "imageURL": ""
         },
-        {
-            "id": "6d7b8e9a-4f5b-4c5d-8d6a-9e6d8e7b5c6d",
-            "question": {
-                "text": "¿Cómo se selecciona todos los elementos de una página que tengan una clase específica en CSS?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "#classname",
-                "classname",
-                "*classname"
-            ],
-            "correctAnswer": ".classname",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors",
-            "referencesText": "CSS Class Selectors",
-            "category": "css"
+        "incorrectAnswers": [
+            "visibility",
+            "display",
+            "filter"
+        ],
+        "correctAnswer": "opacity",
+        "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/opacity",
+        "referencesText": "CSS opacity Property",
+        "category": "css"
+    },
+    {
+        "id": "6d7b8e9a-4f5b-4c5d-8d6a-9e6d8e7b5c6d",
+        "question": {
+            "text": "¿Cómo se selecciona todos los elementos de una página que tengan una clase específica en CSS?",
+            "code": "",
+            "imageURL": ""
         },
-        {
-            "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
-            "question": {
-                "text": "¿Qué etiqueta HTML se utiliza para definir una celda en una tabla?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "<table>",
-                "<tr>",
-                "<cell>"
-            ],
-            "correctAnswer": "<td>",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td",
-            "referencesText": "HTML <td> Element",
-            "category": "html"
+        "incorrectAnswers": [
+            "#classname",
+            "classname",
+            "*classname"
+        ],
+        "correctAnswer": ".classname",
+        "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors",
+        "referencesText": "CSS Class Selectors",
+        "category": "css"
+    },
+    {
+        "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+        "question": {
+            "text": "¿Qué etiqueta HTML se utiliza para definir una celda en una tabla?",
+            "code": "",
+            "imageURL": ""
         },
-        {
-            "id": "7g8h9i0j-1k2l-3m4n-5o6p-1a2b3c4d5e6f",
-            "question": {
-                "text": "¿Qué atributo HTML se utiliza para especificar el archivo de origen de un video?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "href",
-                "link",
-                "source"
-            ],
-            "correctAnswer": "src",
-            "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
-            "referencesText": "HTML <video> Element",
-            "category": "html"
+        "incorrectAnswers": [
+            "<table>",
+            "<tr>",
+            "<cell>"
+        ],
+        "correctAnswer": "<td>",
+        "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td",
+        "referencesText": "HTML <td> Element",
+        "category": "html"
+    },
+    {
+        "id": "7g8h9i0j-1k2l-3m4n-5o6p-1a2b3c4d5e6f",
+        "question": {
+            "text": "¿Qué atributo HTML se utiliza para especificar el archivo de origen de un video?",
+            "code": "",
+            "imageURL": ""
         },
-        {
-            "id": "2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t",
-            "question": {
-                "text": "En Git, ¿qué comando se utiliza para fusionar una rama con la rama actual?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "git combine",
-                "git join",
-                "git link"
-            ],
-            "correctAnswer": "git merge",
-            "referencesLink": "https://git-scm.com/docs/git-merge",
-            "referencesText": "Git merge Documentation",
-            "category": "git"
+        "incorrectAnswers": [
+            "href",
+            "link",
+            "source"
+        ],
+        "correctAnswer": "src",
+        "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
+        "referencesText": "HTML <video> Element",
+        "category": "html"
+    },
+    {
+        "id": "2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t",
+        "question": {
+            "text": "En Git, ¿qué comando se utiliza para fusionar una rama con la rama actual?",
+            "code": "",
+            "imageURL": ""
         },
-        {
-            "id": "3f4g5h6i-7j8k-9l0m-1n2o-3p4q5r6s7t8u",
-            "question": {
-                "text": "¿Qué comando en Git se utiliza para ver el historial de commits?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "git history",
-                "git log --history",
-                "git show commits"
-            ],
-            "correctAnswer": "git log",
-            "referencesLink": "https://git-scm.com/docs/git-log",
-            "referencesText": "Git log Documentation",
-            "category": "git"
+        "incorrectAnswers": [
+            "git combine",
+            "git join",
+            "git link"
+        ],
+        "correctAnswer": "git merge",
+        "referencesLink": "https://git-scm.com/docs/git-merge",
+        "referencesText": "Git merge Documentation",
+        "category": "git"
+    },
+    {
+        "id": "3f4g5h6i-7j8k-9l0m-1n2o-3p4q5r6s7t8u",
+        "question": {
+            "text": "¿Qué comando en Git se utiliza para ver el historial de commits?",
+            "code": "",
+            "imageURL": ""
         },
-        {
-            "id": "4h5i6j7k-8l9m-0n1o-2p3q-4r5s6t7u8v9w",
-            "question": {
-                "text": "¿Qué estructura de datos se utiliza comúnmente para representar datos JSON?",
-                "code": "",
-                "imageURL": ""
-            },
-            "incorrectAnswers": [
-                "Array",
-                "Set",
-                "Queue"
-            ],
-            "correctAnswer": "Object",
-            "referencesLink": "https://www.json.org/json-en.html",
-            "referencesText": "JSON Data Types",
-            "category": "json"
-        }
-    ]
+        "incorrectAnswers": [
+            "git history",
+            "git log --history",
+            "git show commits"
+        ],
+        "correctAnswer": "git log",
+        "referencesLink": "https://git-scm.com/docs/git-log",
+        "referencesText": "Git log Documentation",
+        "category": "git"
+    },
+    {
+        "id": "4h5i6j7k-8l9m-0n1o-2p3q-4r5s6t7u8v9w",
+        "question": {
+            "text": "¿Qué estructura de datos se utiliza comúnmente para representar datos JSON?",
+            "code": "",
+            "imageURL": ""
+        },
+        "incorrectAnswers": [
+            "Array",
+            "Set",
+            "Queue"
+        ],
+        "correctAnswer": "Object",
+        "referencesLink": "https://www.json.org/json-en.html",
+        "referencesText": "JSON Data Types",
+        "category": "json"
+    }
 ]
