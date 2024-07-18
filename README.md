@@ -87,7 +87,7 @@ Si no existe, debemos añadir un campo al objeto JSON con el valor total de vota
 
 ```
 
-### Iteración 5.1: Seguridad
+### Iteración 3.1: Seguridad
 
 No queremos que la misma IP vote demasiado seguido una misma pregunta. Investiga como usar Express para que limite el número de peticiones a este endpoint. Es decir que un mismo cliente solo pueda hacer una petición cada 24 horas, por ejemplo.
 
