@@ -2,11 +2,14 @@
 const questions = require("./questions.json");
 
 // Importar el paquete de terceros que acabamos de instalar. Fijaos que como se encuentra en la carpeta node_modules NO hace falta especificar ninguna ruta (al igual que pasa con los built-in modules)
-const express = require("express");
-const logger = require("morgan");
-const cors = require("cors");
+const express = require('express');
+const rateLimit = require('express-rate-limit');
+const logger = require('morgan');
+const cors = require('cors');
 
-const _ = require("lodash");
+const _ = require('lodash');
+const fs = require('fs')
+
 
 // Es generarme un objeto para gestionar el enrutamiento y otros aspectos de la aplicación
 const app = express();
@@ -17,6 +20,15 @@ app.use(logger("dev"));
 
 // nos gustaría que también gestionaras los datos de tipo JSON (entre ellos los POST que nos lleguen)
 app.use(express.urlencoded({ extended: true })); // Middleware para parsear datos de formularios
+
+const limiter = rateLimit({
+    windowMs: 24 * 60 * 60 * 1000, 
+    max: 2, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
+    standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
+    legacyHeaders: false, // Disable the `X-RateLimit-*` headers
+});
+
+app.use(limiter);
 
 // obtener el index.html
 app.get("/", (req, res) => {
@@ -70,7 +82,42 @@ app.get("/api/v1/categories", (req, res) => {
   res.send(orderedArr);
 });
 
+ 
+// Endpoint upvote
+app.patch('/api/v1/question/:id/upvote', limiter, (req, res) => {
+    const id = req.params.id;
+    const question = questions.find(q => q.id === id);
 
+    if (question) {
+        if (!question.hasOwnProperty('popularity')) {
+            question.popularity = 0;
+        }
+        question.popularity += 1;
+        // Guardar los cambios en el archivo questions.json
+        fs.writeFileSync('./questions.json', JSON.stringify(questions, null, 2));
+        res.status(200).send({ message: 'Upvoted successfully', question });
+    } else {
+        res.status(404).send({ message: 'Question not found' });
+    }
+});
+
+// Endpoint para cuando el usuario vote negativo
+app.patch('/api/v1/question/:id/downvote', limiter, (req,res) => {
+    const id = req.params.id;
+    const question = questions.find(q => q.id === id);
+
+    if (question) {
+        if (!question.hasOwnProperty('popularity')) {
+            question.popularity = 0;
+        }
+        question.popularity -= 1;
+        // Guardar los cambios en el archivo questions.json
+        fs.writeFileSync('./questions.json', JSON.stringify(questions, null, 2));
+        res.status(200).send({ message: 'Downvoted successfully', question });
+    } else {
+        res.status(404).send({ message: 'Question not found' });
+    }
+} )
 
 // Levantar el servidor
 app.listen(process.env.PORT || 3000, () => {
