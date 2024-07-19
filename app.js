@@ -25,24 +25,42 @@ app.get("/", (req, res) => {
 
 // obtener una pregunta tipo test aleatoria
 app.get("/api/v1/question/random", (req, res) => {
-  // TODO!
-  const { category } = req.query; 
-  const question = () => {
-    if (category) {
-        categoryQuestions = questions.filter(
-            (q) => q.category.toLowerCase() == category.toLowerCase()
-          );
-          const randomCategoryQuestion = _.sample(categoryQuestions); 
-          return randomCategoryQuestion;
-      } else {
-        const randomQuestion = _.sample(questions); //De Lodash
-        return randomQuestion;
-      }
-  } 
+    // TODO!
+    const { category } = req.query; 
+    let multipleCategoryQuestions = []
+    console.log(category)
+    const question = () => {
+      if (category) {
+         if (category.includes(',')) {
+            const categoryArr = category.split(',');
+             multipleCategoryQuestions = questions.filter(q => {
 
+                for (i=0; i<categoryArr.length; i++) {
+                  if ( q.category == categoryArr[i]) {
+                    return true;
+                  }
+                }
+            })
+            console.log(multipleCategoryQuestions)
+            const randomMultipleCategoryQuestion  = _.sample(multipleCategoryQuestions);
+            return randomMultipleCategoryQuestion;
+         } else {
+          const categoryQuestions = questions.filter(
+                (q) => q.category.toLowerCase() == category.toLowerCase()
+              );
+              const randomCategoryQuestion = _.sample(categoryQuestions); 
+              return randomCategoryQuestion;
+         }
+
+        } else {
+          const randomQuestion = _.sample(questions); //De Lodash
+          return randomQuestion;
+        }
+    } 
   
-  res.send(question());
-});
+    res.send(question());
+  });
+
 
 // obtener todas las categorías posibles ordenadas alfabeticamente
 app.get("/api/v1/categories", (req, res) => {
@@ -51,6 +69,7 @@ app.get("/api/v1/categories", (req, res) => {
   const orderedArr = uniqueValuesArr.sort();
   res.send(orderedArr);
 });
+
 
 
 // Levantar el servidor
