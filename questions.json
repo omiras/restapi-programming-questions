@@ -6,16 +6,11 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "15",
-      "'105'",
-      "Error"
-    ],
+    "incorrectAnswers": ["15", "'105'", "Error"],
     "correctAnswer": "105",
     "referencesLink": "https://www.w3schools.com/js/js_type_conversion.asp",
     "referencesText": "Conversiones de Tipo en JavaScript",
-    "category": "javascript",
-    "popularity": 23
+    "category": "javascript"
   },
   {
     "id": "c9bf9e57-1685-4c89-bafb-ff5af830be8a",
@@ -24,11 +19,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "background-color",
-      "color-text",
-      "text-style"
-    ],
+    "incorrectAnswers": ["background-color", "color-text", "text-style"],
     "correctAnswer": "color",
     "referencesLink": "https://www.w3schools.com/cssref/pr_text_color.asp",
     "referencesText": "CSS color Property",
@@ -41,11 +32,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "<parrafo>",
-      "<paragraph>",
-      "<p></p>"
-    ],
+    "incorrectAnswers": ["<parrafo>", "<paragraph>", "<p></p>"],
     "correctAnswer": "<p>",
     "referencesLink": "https://www.w3schools.com/tags/tag_p.asp",
     "referencesText": "HTML <p> Tag",
@@ -75,11 +62,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "variable z = 5;",
-      "const y = 5;",
-      "let x = 10;"
-    ],
+    "incorrectAnswers": ["variable z = 5;", "const y = 5;", "let x = 10;"],
     "correctAnswer": "variable z = 5;",
     "referencesLink": "https://www.w3schools.com/js/js_variables.asp",
     "referencesText": "JavaScript Variables",
@@ -92,11 +75,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "border-style",
-      "border-color",
-      "outline"
-    ],
+    "incorrectAnswers": ["border-style", "border-color", "outline"],
     "correctAnswer": "border",
     "referencesLink": "https://www.w3schools.com/cssref/pr_border.asp",
     "referencesText": "CSS border Property",
@@ -109,11 +88,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "console.log()",
-      "prompt()",
-      "confirm()"
-    ],
+    "incorrectAnswers": ["console.log()", "prompt()", "confirm()"],
     "correctAnswer": "alert()",
     "referencesLink": "https://www.w3schools.com/jsref/met_win_alert.asp",
     "referencesText": "JavaScript alert() Method",
@@ -126,11 +101,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "#element.example",
-      ".element#example",
-      ".example"
-    ],
+    "incorrectAnswers": ["#element.example", ".element#example", ".example"],
     "correctAnswer": "#example",
     "referencesLink": "https://www.w3schools.com/cssref/sel_id.asp",
     "referencesText": "CSS ID Selector",
@@ -177,11 +148,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "git start",
-      "git begin",
-      "git create"
-    ],
+    "incorrectAnswers": ["git start", "git begin", "git create"],
     "correctAnswer": "git init",
     "referencesLink": "https://git-scm.com/docs/git-init",
     "referencesText": "Git init Documentation",
@@ -194,11 +161,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "git add *",
-      "git add .all",
-      "git add files"
-    ],
+    "incorrectAnswers": ["git add *", "git add .all", "git add files"],
     "correctAnswer": "git add .",
     "referencesLink": "https://git-scm.com/docs/git-add",
     "referencesText": "Git add Documentation",
@@ -211,11 +174,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "git commit-all",
-      "git save",
-      "git snapshot"
-    ],
+    "incorrectAnswers": ["git commit-all", "git save", "git snapshot"],
     "correctAnswer": "git commit",
     "referencesLink": "https://git-scm.com/docs/git-commit",
     "referencesText": "Git commit Documentation",
@@ -228,11 +187,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "git copy",
-      "git replicate",
-      "git fork"
-    ],
+    "incorrectAnswers": ["git copy", "git replicate", "git fork"],
     "correctAnswer": "git clone",
     "referencesLink": "https://git-scm.com/docs/git-clone",
     "referencesText": "Git clone Documentation",
@@ -245,11 +200,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "string",
-      "number",
-      "date"
-    ],
+    "incorrectAnswers": ["string", "number", "date"],
     "correctAnswer": "date",
     "referencesLink": "https://www.json.org/json-en.html",
     "referencesText": "JSON Data Types",
@@ -272,6 +223,7 @@
     "referencesText": "JSON Structure",
     "category": "json"
   },
+
   {
     "id": "f938b2e3-1a5b-4a5c-bc39-9b3b35b6c814",
     "question": {
@@ -279,11 +231,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "map()",
-      "forEach()",
-      "reduce()"
-    ],
+    "incorrectAnswers": ["map()", "forEach()", "reduce()"],
     "correctAnswer": "filter()",
     "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
     "referencesText": "Array.prototype.filter()",
@@ -330,11 +278,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "visibility",
-      "display",
-      "filter"
-    ],
+    "incorrectAnswers": ["visibility", "display", "filter"],
     "correctAnswer": "opacity",
     "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/opacity",
     "referencesText": "CSS opacity Property",
@@ -347,11 +291,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "#classname",
-      "classname",
-      "*classname"
-    ],
+    "incorrectAnswers": ["#classname", "classname", "*classname"],
     "correctAnswer": ".classname",
     "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors",
     "referencesText": "CSS Class Selectors",
@@ -364,11 +304,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "<table>",
-      "<tr>",
-      "<cell>"
-    ],
+    "incorrectAnswers": ["<table>", "<tr>", "<cell>"],
     "correctAnswer": "<td>",
     "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td",
     "referencesText": "HTML <td> Element",
@@ -381,11 +317,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "href",
-      "link",
-      "source"
-    ],
+    "incorrectAnswers": ["href", "link", "source"],
     "correctAnswer": "src",
     "referencesLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
     "referencesText": "HTML <video> Element",
@@ -398,11 +330,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "git combine",
-      "git join",
-      "git link"
-    ],
+    "incorrectAnswers": ["git combine", "git join", "git link"],
     "correctAnswer": "git merge",
     "referencesLink": "https://git-scm.com/docs/git-merge",
     "referencesText": "Git merge Documentation",
@@ -432,11 +360,7 @@
       "code": "",
       "imageURL": ""
     },
-    "incorrectAnswers": [
-      "Array",
-      "Set",
-      "Queue"
-    ],
+    "incorrectAnswers": ["Array", "Set", "Queue"],
     "correctAnswer": "Object",
     "referencesLink": "https://www.json.org/json-en.html",
     "referencesText": "JSON Data Types",
