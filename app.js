@@ -35,44 +35,60 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/index.html");
 });
 
-// obtener una pregunta tipo test aleatoria
-app.get("/api/v1/question/random", (req, res) => {
-  // TODO!
-  const { category } = req.query;
-  let multipleCategoryQuestions = []
-  console.log(category)
-  const question = () => {
-    if (category) {
-      if (category.includes(',')) {
-        const categoryArr = category.split(',');
-        multipleCategoryQuestions = questions.filter(q => {
+function getRandomQuestion(req, res) {
+  (req, res) => {
+    // TODO!
+    const { category } = req.query;
+    let multipleCategoryQuestions = []
+    console.log(category)
+    const question = () => {
+      if (category) {
+        if (category.includes(',')) {
+          const categoryArr = category.split(',');
+          multipleCategoryQuestions = questions.filter(q => {
 
-          for (i = 0; i < categoryArr.length; i++) {
-            if (q.category == categoryArr[i]) {
-              return true;
+            for (i = 0; i < categoryArr.length; i++) {
+              if (q.category == categoryArr[i]) {
+                return true;
+              }
             }
-          }
-        })
-        console.log(multipleCategoryQuestions)
-        const randomMultipleCategoryQuestion = _.sample(multipleCategoryQuestions);
-        return randomMultipleCategoryQuestion;
-      } else {
-        const categoryQuestions = questions.filter(
-          (q) => q.category.toLowerCase() == category.toLowerCase()
-        );
-        const randomCategoryQuestion = _.sample(categoryQuestions);
-        return randomCategoryQuestion;
-      }
+          })
+          console.log(multipleCategoryQuestions)
+          const randomMultipleCategoryQuestion = _.sample(multipleCategoryQuestions);
+          return randomMultipleCategoryQuestion;
+        } else {
+          const categoryQuestions = questions.filter(
+            (q) => q.category.toLowerCase() == category.toLowerCase()
+          );
+          const randomCategoryQuestion = _.sample(categoryQuestions);
+          return randomCategoryQuestion;
+        }
 
-    } else {
-      const randomQuestion = _.sample(questions); //De Lodash
-      return randomQuestion;
+      } else {
+        const randomQuestion = _.sample(questions); //De Lodash
+        return randomQuestion;
+      }
     }
+
+    res.send(question());
+  }
+}
+
+// obtener una pregunta tipo test aleatoria
+app.get("/api/v1/question/random", getRandomQuestion);
+
+// obtener una pregunta tipo test aleatoria (ahora con más bugs)
+app.get("/api/v2beta/question/random", (req, res) => {
+
+  const errorChance = Math.random();
+
+  if (errorChance < 0.95) {
+    return res.status(503).send('There is high demmand in our API right now. Try again later...');
   }
 
-  res.send(question());
-});
+  getRandomQuestion();
 
+});
 
 // obtener todas las categorías posibles ordenadas alfabeticamente
 app.get("/api/v1/categories", (req, res) => {
