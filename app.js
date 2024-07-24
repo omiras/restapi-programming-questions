@@ -82,7 +82,7 @@ app.get("/api/v2beta/question/random", (req, res) => {
 
   const errorChance = Math.random();
 
-  if (errorChance < 0.95) {
+  if (errorChance < 0.9) {
     return res.status(503).send('There is high demmand in our API right now. Try again later...');
   }
 
