@@ -36,42 +36,41 @@ app.get("/", (req, res) => {
 });
 
 function getRandomQuestion(req, res) {
-  (req, res) => {
-    // TODO!
-    const { category } = req.query;
-    let multipleCategoryQuestions = []
-    console.log(category)
-    const question = () => {
-      if (category) {
-        if (category.includes(',')) {
-          const categoryArr = category.split(',');
-          multipleCategoryQuestions = questions.filter(q => {
+  // TODO!
+  const { category } = req.query;
+  let multipleCategoryQuestions = []
+  console.log(category)
+  const question = () => {
+    if (category) {
+      if (category.includes(',')) {
+        const categoryArr = category.split(',');
+        multipleCategoryQuestions = questions.filter(q => {
 
-            for (i = 0; i < categoryArr.length; i++) {
-              if (q.category == categoryArr[i]) {
-                return true;
-              }
+          for (i = 0; i < categoryArr.length; i++) {
+            if (q.category == categoryArr[i]) {
+              return true;
             }
-          })
-          console.log(multipleCategoryQuestions)
-          const randomMultipleCategoryQuestion = _.sample(multipleCategoryQuestions);
-          return randomMultipleCategoryQuestion;
-        } else {
-          const categoryQuestions = questions.filter(
-            (q) => q.category.toLowerCase() == category.toLowerCase()
-          );
-          const randomCategoryQuestion = _.sample(categoryQuestions);
-          return randomCategoryQuestion;
-        }
-
+          }
+        })
+        console.log(multipleCategoryQuestions)
+        const randomMultipleCategoryQuestion = _.sample(multipleCategoryQuestions);
+        return randomMultipleCategoryQuestion;
       } else {
-        const randomQuestion = _.sample(questions); //De Lodash
-        return randomQuestion;
+        const categoryQuestions = questions.filter(
+          (q) => q.category.toLowerCase() == category.toLowerCase()
+        );
+        const randomCategoryQuestion = _.sample(categoryQuestions);
+        return randomCategoryQuestion;
       }
-    }
 
-    res.send(question());
+    } else {
+      const randomQuestion = _.sample(questions); //De Lodash
+      return randomQuestion;
+    }
   }
+
+  res.send(question());
+
 }
 
 // obtener una pregunta tipo test aleatoria
