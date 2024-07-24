@@ -86,7 +86,7 @@ app.get("/api/v2beta/question/random", (req, res) => {
     return res.status(503).send('There is high demmand in our API right now. Try again later...');
   }
 
-  getRandomQuestion();
+  getRandomQuestion(req, res);
 
 });
 
